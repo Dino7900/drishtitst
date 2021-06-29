@@ -22,7 +22,13 @@ exports.show = (mode,mode2,mode3) => {
         ,,''                    '';;;;,;''
        ;'    ,;@@;'  ,@@;, @@, ';;;@@;,;';.
       ''  ,;@@@@@'  ;@@@@; ''    ;;@@@@@;;;;
-         ;;@@@@@;    '''     .,,;;;@@@@@@@;;;
+         ;;@@@@@;▄───▄
+█▀█▀█
+█▄█▄█
+─███──▄▄
+─████▐█─█
+─████───█
+─▀▀▀▀▀▀▀    '''     .,,;;;@@@@@@@;;;
         ;;@@@@@@;           , ';;;@@@@@@@@;;;.
          '';@@@@@,.  ,   .   ',;;;@@@@@@;;;;;;  v` + version + `
             .   '';;;;;;;;;,;;;;@@@@@;;' ,.:;'
@@ -31,12 +37,12 @@ exports.show = (mode,mode2,mode3) => {
                       
 
     console.log(gradient[mode](banner_logo));
-   console.log(clr.rainbow("                    D R I S H T I"));
+   console.log(clr.rainbow("                    I C A"));
 
     console.log(' ');
     console.log('       Time   : [ ' + show_date.magenta.italic + ' | ' + show_time.magenta.italic + ' ]');
-    console.log('       Team   : [ ' + 'Indian Cyber Ops'.yellow.italic + ' ]');
-    console.log('       Author : [ ' + 'Prateek'.brightGreen.italic + ' | ' + 'Samanvai'.yellow.italic + ' | ' + 'Biswajeet'.brightRed.italic    + ' ]' );
+    console.log('       Team   : [ ' + 'ICA'.yellow.italic + ' ]');
+    console.log('       Author : [ ' + 'ALBIN'.brightGreen.italic + ' | ' + 'WHITEKNIGHT'.yellow.italic + ' | ' + 'YOU'.brightRed.italic    + ' ]' );
     
     if (mode2) {
     console.log('       Tool   : [ ' + mode2.brightCyan.bold + ' ]' );
